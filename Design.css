@@ -1,34 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-body{
-    background-color: rgb(156,111,68);
-}
-html, body{
-    padding: 0%;
-    margin: 0%;
-}
 header{
-    color: 	#f9f8eb;
-    text-align: center;
-    padding: 20px;
-    background-color: #D2B48C;
-    
+    background-color: #BEA689;
+    padding: 170px;
 }
 header h1{
-    font-size: 50px;
-    font-family:sans-serif;
-    margin: 20;
+    text-align: left;
+    font-size:70px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    padding-left: 0px;
+   
+}
+header p{
+    text-align: left;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    max-width: 600px;
+   
+}
+.hp{
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-image: url(./pics/coffee\ icon.jpg);
+    border: 20px solid #BEA689;
+    float: right;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-top: -25px;
     
 }
-header .hp{
+
+main{
+    background-color: #F3d5b5;
+    padding: 200px;
+}
+
+main h1{
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 55px;
+    padding-left: 100px;
+}
+main p{
+    padding-left: 100px;
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: normal;
+    text-indent: 20px;
+    max-width: 1500px;
+}
+
+main h2{
+    text-align: center;
+    font-size:40px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    
+}
+main h3{
+    text-align: center;
+    font-size:40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+
+}
+.prod1{
+    width: 400px;
+    height: 400px;
+    background-image: url(./pics/Customized\ gift\ Set.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+    
+}
+.prod2{
+    width: 400px;
+    height: 400px;
+    background-image: url(./pics/Anime\ and\ cartoon\ Themed\ Stickers.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+}
+
+footer{
+    background-color: #BEA689;
+    padding: 150px;
+}
+.girl{
     width: 250px;
     height: 250px;
-    background-image:url(./pics/coffee\ icon.jpg);
+    background-image: url(./pics/Girl\ icon.jpg);
+    border: 20px solid #BEA689;
+    float: right;
+    background-size: 527px;
     background-repeat: no-repeat;
-    background-position: 0;
-    background-size: 250px;
-    border: #d7b397;
     border-radius: 50%;
-    margin: 0 auto;
-   
+    background-position: -129px -160px;
+    margin-top: -186px;
+}
+footer p{
+    text-align: left;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    max-width: 708px;
 }
